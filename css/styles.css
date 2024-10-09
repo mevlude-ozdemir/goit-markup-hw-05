@@ -422,7 +422,7 @@ p {
   text-align: left;
   color: #f4f4fd;
 }
-.social p {
+.container-footer p {
   color: rgba(255, 255, 255, 1);
   padding-bottom: 16px;
 }
@@ -449,4 +449,55 @@ p {
 .container-footer {
   display: flex;
   gap: 120px;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+.subscribe-e-mail {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  background-color: transparent;
+  font-family: inherit;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 10px;
+}
+.subscribe-e-mail::placeholder {
+  color: #ffffff;
+  padding-left: 10px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.btn-footer {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  width: 165px;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  gap: 10px;
+}
+
+.icon-footer {
+  width: 24px;
+  height: 20px;
 }
