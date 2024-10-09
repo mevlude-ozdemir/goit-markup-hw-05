@@ -524,8 +524,7 @@ p {
 }
 
 .signup-form label,
-.signup-form input:not([type="checkbox"]),
-.signup-form select {
+.signup-form input:not([type="checkbox"]) {
   display: block;
   width: 100%;
   margin-top: 10px;
@@ -549,7 +548,7 @@ p {
   padding: 10px 15px;
 }
 
-.signup-form input:not([type="checkbox"]):focus,
+.signup-form input ([type="checkbox"]):focus,
 .signup-form select:focus {
   outline: none;
   background-color: yellow;
@@ -563,5 +562,3 @@ p {
   vertical-align: bottom;
   border-radius: 50%;
 }
-
-
