@@ -501,3 +501,67 @@ p {
   width: 24px;
   height: 20px;
 }
+.modal {
+  background: #fcfcfc;
+  border-radius: 4px;
+  position: fixed;
+  width: 408px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 11;
+  top: 12%;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
+  box-shadow: 0px 2px 1px 0px #00000033;
+}
+.modal h4 {
+  padding-top: 20%;
+  text-align: center;
+}
+.signup-form {
+  width: 88%;
+  margin: auto;
+}
+
+.signup-form label,
+.signup-form input:not([type="checkbox"]),
+.signup-form select {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.signup-form input[type="checkbox"],
+.signup-form input[type="checkbox"] + label {
+  display: inline-block;
+  width: auto;
+  margin-top: 15px;
+}
+
+.signup-form button[type="submit"] {
+  display: block;
+  margin-top: 15px;
+}
+
+.signup-form input:not([type="checkbox"]),
+.signup-form select {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+}
+
+.signup-form input:not([type="checkbox"]):focus,
+.signup-form select:focus {
+  outline: none;
+  background-color: yellow;
+  border: 1px solid greenyellow;
+}
+
+.signup-form input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #2e4c6d;
+  vertical-align: bottom;
+  border-radius: 50%;
+}
+
+
